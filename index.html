@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Search Task </title>
+
+    <!-- Bootstrap Librari  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Mf5385n9z21u3HJrkF5f5f5CjuU+3s5wE5v5t5t5z5s5r5Y5x5P5F5S5B5W5l5f5H5l5v5Y5f5L5b5j5I5s5B5M5q5f5E5l5S5Y5T5V5U5P5s5H5S5B5U5G5g5E5T5L5l5M5R5H5R5S5w5E5v5u5k5R5S5O5H5H5P5Q5l5U5J5X5G5Y5X5T5P5b5t5S5D5" crossorigin="anonymous">
+
+    <!-- Main Style -->
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: #f7f7f7;">
+    
+    <div class="container-fluid center-content">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Binary Search Task </h1>
+                    <form id="searchForm">
+
+                        <div class="mb-3">
+                            <label for="arrayInput" class="form-label">Enter Array (comma-separated)</label>
+                            <input type="text" class="form-control custom-input" id="arrayInput" name="arrayInput" placeholder="e.g., 0, 1, 21, 33, 45" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="targetInput" class="form-label">Enter Target Number</label>
+                            <input type="number" class="form-control custom-input" id="targetInput" name="targetInput" required>
+                        </div>
+
+                        <button type="submit" class="btn custom-btn btn-block">See Output</button>
+                    </form>
+                    <div id="output" class="custom-output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- first solution (Proplem Solving) -->
+    <script src="Solution_1_Problem_Solving.js"></script>
+
+    <!-- Secound solution (Interacting With Screen) -->
+    <script src="Solution_2_Interacting _Witch_Screen.js"></script>
+</body>
+</html>
